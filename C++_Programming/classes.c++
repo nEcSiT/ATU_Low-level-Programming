@@ -4,10 +4,11 @@ using namespace std;
 
 class Rectangle // how class is declared
 {
-public: // access specifier
+private: // access specifier
     float length; // data members
     float width; // data members
-
+    
+public:
     Rectangle(float l, float w) // rectangle constructor method (values l and w)
     {
         length = l;
