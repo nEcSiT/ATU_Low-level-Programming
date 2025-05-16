@@ -8,10 +8,7 @@ public:
     float width;
 
 public:
-    Rectanlge(float l, float w){
-        length = l;
-        width = w;
-    }
+    Rectanlge(float l, float w) : length(l), width(w) {}
 
     int Area(){
         return  length * width;
